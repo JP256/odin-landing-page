@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.main-header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 20px 0;
+}
+.main-header section h1 {
+  font-size: 48px;
+}
+
+header {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 100px;
+}
+.logo-text {
+  display: flex;
+  font-size: 21px;
+  gap: 10px;
+  font-weight: bold;
+  align-items: center;
+}
+header ul {
+  list-style: none;
+  display: flex;
+}
+header a {
+  color: #f9faf8;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.section-aside {
+  width: 80vw;
+  margin: 34px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.section-aside h1 {
+  text-transform: capitalize;
+}
+.section-aside p {
+  margin-bottom: 10px;
+}
+.section-aside span {
+  text-transform: uppercase;
+}
+.section-aside button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px;
+  width: 120px;
+  border-radius: 8px;
+  border: none;
+}
+.section-aside-img {
+  display: flex;
+}
+.section-aside-img img {
+  width: 250px;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* MAIN TWO */
+.main-two {
+  background-color: #f9faf8;
+  color: #1f2937;
+}
+.main-two h2 {
+  padding-top: 20px;
+  text-align: center;
+}
+.main-two-orchids {
+  min-width: 80vw;
+  display: flex;
+  min-height: 20vh;
+}
+.main-two-orchids  .orchid{
+  
+}
